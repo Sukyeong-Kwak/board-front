@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Main from 'views/Main'
@@ -14,8 +13,6 @@ import { MAIN_PATH, AUTH_PATH, SEARCH_PATH, USER_PATH, BOARD_PATH,
 
 //          component: Application 컴포넌트          //
 function App() {
-
-  // const [value, setValue] = useState<string>('');
 
   //          render: Application 컴포넌트 렌더링          //
   // description: 메인화면 : '/' - Main //
